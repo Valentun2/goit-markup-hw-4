@@ -6,6 +6,11 @@
   --third-color: #f4f4fd;
   --button-color: #404bbf;
   --button-color-border: #e7e9fc;
+  --customers-icon: #8e8f99;
+  --social-icon-bg: #4d5ae5;
+  --social-icon-color: #d9d9d9;
+  --social-icon-color-hover: #404BBF;
+  --features-icon-bg: #F4F4FD;
 }
 .link {
   text-decoration: none;
@@ -166,6 +171,15 @@ body {
 .section {
   padding: 120px 0;
 }
+.features-icon {
+  background-color: var(--features-icon-bg);
+  padding: 24px 100px;
+  
+}
+.features-icon-svg {
+ 
+  display: block;
+}
 .features {
   margin-bottom: 8px;
   font-weight: 500;
@@ -217,15 +231,12 @@ body {
   margin-right: 24px;
 }
 
-
 .section-worker {
   background: var(--third-color);
 }
 .text-worker {
-  align-items: center;
-  flex-direction: column;
+ 
   padding: 32px 16px;
-
 }
 .section-worker-list {
   background: var(--secondary-color);
@@ -246,14 +257,70 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
+.social-icon-list {
+  display: flex;
+  gap: 24px;
+}
+.social-icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--social-icon-bg);
+  fill: var(--social-icon-color);
+}
+.social-icon-item:focus,
+.social-icon-item:hover {
+background-color: var(--social-icon-color-hover);
+}
+.social-icon {
+}
+/*                         customers                */
+.customers-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.customers-item {
+  padding: 16px 32px;
+
+  border: 1px solid var(--customers-icon);
+  border-radius: 4px;
+}
+.customers-icon {
+  fill: var(--customers-icon);
+  display: block;
+}
+
 /*                      footer                    */
 .footer {
   background: var(--main-color);
+
+}
+.footer-div {
+  display: flex;
   padding: 100px 0;
+ 
+}
+.second-footer-div {
+  margin-right: 120px;
+}
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color);
+  margin-bottom: 16px;
 }
 .footer-link {
-  display: inline-block;
+display: inline-block;
+margin: 0;
 }
 .logo-footer-color {
   color: var(--third-color);
