@@ -303,7 +303,7 @@ body {
 }
 .social-link:focus,
 .social-link:hover {
-  background-color: var(--social-icon-color-hover);
+  background-color: var(--social-icon-color-hover)
 }
 /*                         customers                */
 .customers-list {
@@ -344,6 +344,7 @@ body {
 .footer-div {
   display: flex;
   padding: 100px 0;
+  align-items: baseline;
 }
 .second-footer-div {
   margin-right: 120px;
@@ -384,8 +385,11 @@ body {
 
   width: 264px;
 }
-.social-link:focus,
-.social-link:hover {
+.footer-list {
+  gap: 16px;
+}
+.social-link-footer:focus,
+.social-link-footer:hover {
   background-color: var(--footer-icon-focus);
 }
 /*                  portfolio                 */
