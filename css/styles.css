@@ -251,7 +251,7 @@ body {
   background: var(--third-color);
 }
 .text-worker {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .section-worker-list {
   background: var(--secondary-color);
@@ -303,7 +303,7 @@ body {
 }
 .social-link:focus,
 .social-link:hover {
-  background-color: var(--social-icon-color-hover)
+  background-color: var(--social-icon-color-hover);
 }
 /*                         customers                */
 .customers-list {
@@ -452,8 +452,7 @@ body {
 .projects-portfolio-link:focus,
 .projects-portfolio-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .projects-portfolio-item:not(:nth-child(3n)) {
   margin-right: 24px;
